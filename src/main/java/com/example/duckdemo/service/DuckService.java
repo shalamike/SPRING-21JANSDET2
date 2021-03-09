@@ -36,7 +36,7 @@ public class DuckService {
 		if (duck.isPresent()) {
 			return duck.get();
 		} else {
-			throw new DuckNotFoundException("Duck is not here, QUACK!");
+			throw new DuckNotFoundException();
 		}
 	}
 	
